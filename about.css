@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+}
+button {
+    border: none;
+}
+button, 
+button:active, 
+button:focus {
+    cursor: pointer;
+}
+button:focus {
+    outline:0;
+}
+.header {
+    background-color: white;  
+    max-height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.logo {
+    text-align: center;
+    color: #899E00; 
+    font-size: 16px;
+    font-style: "Gilroy Regular";
+}
+.slogan {
+    min-width: 500px;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Gilroy Bold";
+    margin-left: 20px;
+}
+.teleph {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.phone_call {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.phone {
+    color: #899E00;
+    text-align: right;
+    font-family: "Gilroy Regular";
+    text-decoration: underline dashed #899E00;
+}
+
+.nav {
+    background-color: #899E00;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Gilroy Regular";
+    margin-right: 1px;
+}
+.nav > a {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.about-company {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.nav > a:hover {
+    background-color: #606e00;
+}
+h1 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Gilroy Light"
+}Gilroy
+.about {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+}
+.article {
+    font-family: "Gilroy Regular";
+}
+.project {
+}
+.project > img {
+}
+.show {
+    background-color: rgba(137,	158, 0, 0.4);
+    width: 228px;
+    height: 130px;
+    position: absolute;
+    left: 222px;
+    top: 123px;
+    color: white;
+    text-align: center;
+    font-family: "Gilroy Bold";
+}
+.show > p {
+    margin-top: 35px;
+}
+.w-line {
+    border-top: 1px dashed white;
+    height: 2px;
+    margin-top: -17px;
+    width: 130px;
+    margin-left: 50px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.button,
+.application {
+    font-family: "Gilroy Regular";
+    color: white;
+    width: 226px;
+    height: 50px;
+    background-color: #899E00;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+}
+.price {
+    margin-right: 30px;
+}
+.team {
+    background-color: #899E00;
+    height: 290px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Gilroy Light";
+    font-size: 30px;
+}
+.photo {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: flex-end;
+    height: 250px;
+}
+.names {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+.name {
+    margin-left: 20px;
+    width: 150px;
+    font-family: "Gilroy Light";  
+}
+.name_surname {
+    font-weight: 900;
+}
+.team2 {
+    background-color: #899E00;
+}
+.buttons2 {
+    background-color: #899E00;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.button2 {
+    color: #899E00;
+    width: 226px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: "Gilroy Regular";
+}
+.teammates,
+.history,
+.loved {
+    vertical-align: middle;
+    font-family: "Gilroy Regular";
+}
+.text_about {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.wrap {
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.numbers {
+    background: url("images/couple.jpg")  no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.opacity {
+    width: 100%;
+    height: 400px;
+    left: 0;
+    top: 0px;
+    background-color: rgba(137,	158, 0, 0.4);
+    color: white;
+    position: absolute;
+}
+.text {
+    width: 400px;
+    font-family: "Gilroy Light";
+}
+.head-num {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Gilroy Light";
+}
+.clients {
+    text-align: right;
+    font-size: 40px;
+}
+.clients1 {
+    font-size: 20px;
+
+}
+.text1 {
+    margin-left: -120px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.text1 > div {
+    text-align: center;
+}
+.year1,
+.masters1,
+.done1 {
+    font-size: 30px;
+}
+.year,
+.masters,
+.done {
+    width: 150px;
+}
+.acts {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.acts > img {
+    margin-right: 30px;
+}
+.partners {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.partners > img {
+    margin-right: 30px;
+}
+.result {
+    text-align: center;
+    font-family: "Gilroy Regular";
+}
+.apply {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    background-color: #232323;
+}
+.logo1 {
+    font-size: 16px;
+    margin-top: 40px;
+}
+.logo1 > p {
+
+    text-align: left;
+    margin-top: 10px;
+}
+.logo1 > div {
+
+    text-align: left;
+    width: 72px;
+    font-family: "Gilroy Regular";
+}
+.contacts {
+    font-family: "Gilroy Regular";
+    color: white;
+    text-align: center;
+
+}
+.mail {
+    color: #899E00;
+}
+.circles {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.circle {
+    border: 1px solid #899E00;
+    border-radius: 50%;
+    height: 40px; 
+    width: 40px;
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+.faq {
+    font-family: "Gilroy Regular";
+    text-align: right;
+    color: #899E00;
+    margin-right: 30px;
+    text-decoration: underline dashed;
+}
+@media (max-width: 767px) {
+    .faq {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+.adline {
+
+}
+.line-faq {
+
+}
+@font-face {
+    font-family: "Gilroy Bold";
+    src: url("fonts/Gilroy-Bold.woff");
+}
+@font-face {
+    font-family: "Gilroy Regular";
+    src: url("fonts/Gilroy-Regular.woff");
+}
+@font-face {
+    font-family: "Gilroy Light";
+    src: url("fonts/Gilroy-Light.woff");
+}
+@font-face {
+    font-family: "Gilroy Thin";
+    src: url("fonts/Gilroy-Thin.woff");
+}
